@@ -188,23 +188,23 @@ public class Rational {
     }
 
     //IntValue method
-    public String intValue() {
-        return ((int) this.num+"/"+(int) this.den);
+    public int intValue() {
+        return ((int) this.num/(int) this.den);
     }
 
     //LongValue method
-    public String longValue() {
-        return ((long) this.num+"/"+(long) this.den);
+    public long longValue() {
+        return ((long) this.num/(long) this.den);
     }
 
     //floatValue method
-    public String floatValue() {
-        return ((float) this.num+"/"+(float) this.den);
+    public float floatValue() {
+        return ((float) this.num/(float) this.den);
     }
 
     //doubleValue method
-    public String doubleValue() {
-        return ((double) this.num+"/"+(double) this.den);
+    public double doubleValue() {
+        return ((double) this.num/(double) this.den);
     }
 
 
